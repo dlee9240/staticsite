@@ -4,5 +4,10 @@ from textnode import TextNode
 
 
 def main():
-    print ("hello world")
+    #print ("hello world")
+    
+    test = TextNode("This is some anchor text", "BOLD", "https://www.boot.dev")
+    print (test)
 
+
+main()
